@@ -1,13 +1,14 @@
 package eu.noelvaes.hello;
 
-import static org.junit.Assert.*;
-import org.junit.*;
+import org.junit.jupiter.api.Test;
+
+import static junit.framework.TestCase.assertEquals;
 
 public class AppTest{
 	@Test
 	public final void testSayHello(){
 		App app = new App();
 		String text = app.sayHello();
-		Assertions.assertEquals("Hello World", text);
+		assertEquals("Hello World", text);
 	}
 }

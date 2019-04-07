@@ -1,0 +1,23 @@
+<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>eu.noelvaes.poms</groupId>
+    <artifactId>ParentPom</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>Parent Pom</name>
+
+    <distributionManagement>
+        <repository>
+            <id>noelvaes</id>
+            <url>https://www.noelvaes.eu/maven/repository/student</url>
+        </repository>
+    </distributionManagement>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>
+            UTF-8
+        </project.build.sourceEncoding>
+    </properties>
+</project>
